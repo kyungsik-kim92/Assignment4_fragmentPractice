@@ -5,10 +5,13 @@
     android:layout_height="match_parent"
     tools:context=".Fragment3">
 
-    <!-- TODO: Update blank fragment layout -->
     <TextView
+        android:id="@+id/fragment3"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:text="@string/hello_blank_fragment" />
+        android:textSize="50sp"
+        android:gravity="center"
+        android:background="#40FF00"
+        android:text="프래그먼트 3" />
 
 </FrameLayout>
